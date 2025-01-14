@@ -48,6 +48,13 @@ export default function HomePage() {
         id="tools"
         className="container mx-auto px-4 py-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 text-gray-800"
       >
+
+
+        <ToolCard
+          title="Subretinal Fluid Segmentation App"
+          href="https://afternoon-shore-89126-fe1f05736c55.herokuapp.com/static"
+          description="Automatic segmentation and volume calculation for subretinal fluid using OCT images."
+        />
         <ToolCard
           title="OCTess"
           href="https://www.octess.ca/"
@@ -61,9 +68,9 @@ export default function HomePage() {
         />
 
         <ToolCard
-          title="SBSA"
+          title="SBSA (Legacy Code)"
           href="https://github.com/jui434/SBSA"
-          description="Segmentation and volume calculation for subretinal fluid using OCT images."
+          description="Previous version of our bleb segmentation tool"
         />
       </section>
     </main>
